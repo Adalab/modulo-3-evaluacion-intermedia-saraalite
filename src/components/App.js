@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./App.css";
-import pokeListFromJson from "./data/pokelist.json";
-import PokeList from "./components/PokeList";
+import "../styles/App.css";
+import pokeListFromJson from "../data/pokelist.json";
+import PokeList from "./PokeList";
 
 function App() {
   const [pokemons /* , setPokemon] */] = useState(pokeListFromJson); //Pasamos el json por el estado aunque en este caso no necesitamos la función porque no hay eventos
